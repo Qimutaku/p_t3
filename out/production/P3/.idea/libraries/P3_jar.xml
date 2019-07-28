@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="P3_jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/P3_jar/junit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/P3_jar/org.hamcrest.core_1.3.0.v20180420-1519.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/P3_jar/P3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>P3.src.GoPiece</OriginalElement>
+  <nodes>
+    <node x="741.5000000000001" y="991.0">P3.src.GoBoard</node>
+    <node x="326.3487500000001" y="1014.5">P3.src.Action</node>
+    <node x="1030.9572222222223" y="991.0">P3.src.ChessBoard</node>
+    <node x="141.5000000000001" y="1208.5">P3.src.ChessAction</node>
+    <node x="46.5" y="968.0">P3.src.Player</node>
+    <node x="546.5000000000001" y="1162.0">P3.src.GoAction</node>
+    <node x="78.72583333333341" y="718.0">P3.src.Position</node>
+    <node x="1058.0197222222223" y="12.5">java.io.Serializable</node>
+    <node x="734.5000000000001" y="536.0">P3.src.Piece</node>
+    <node x="1076.1022222222223" y="101.0">java.lang.Enum</node>
+    <node x="1016.4572222222223" y="752.5">P3.src.ChessPiece</node>
+    <node x="825.4572222222223" y="787.5">P3.src.Board</node>
+    <node x="1149.6022222222223" y="502.0">P3.src.ChessType</node>
+    <node x="444.5822222222223" y="1488.0">P3.src.MyChessAndGoGame</node>
+    <node x="1208.0197222222223" y="0.0">java.lang.Comparable</node>
+    <node x="668.4572222222223" y="787.5">P3.src.GoPiece</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="P3.src.ChessAction" target="P3.src.Action">
+      <point x="48.125" y="-71.5" />
+      <point x="382.1250000000001" y="1142.0" />
+      <point x="357.8487500000001" y="1142.0" />
+      <point x="-31.5" y="25.5" />
+    </edge>
+    <edge source="P3.src.ChessAction" target="P3.src.ChessBoard">
+      <point x="144.375" y="-71.5" />
+      <point x="478.3750000000001" y="1142.0" />
+      <point x="1062.9572222222223" y="1142.0" />
+      <point x="-64.0" y="49.0" />
+    </edge>
+    <edge source="P3.src.MyChessAndGoGame" target="P3.src.GoBoard">
+      <point x="46.375" y="-48.5" />
+      <point x="570.4572222222223" y="1448.0" />
+      <point x="869.4591666666668" y="1448.0" />
+      <point x="869.4591666666668" y="1132.0" />
+      <point x="884.0000000000001" y="1132.0" />
+      <point x="57.0" y="49.0" />
+    </edge>
+    <edge source="P3.src.GoBoard" target="P3.src.GoPiece">
+      <point x="0.0" y="-49.0" />
+      <point x="827.0000000000001" y="948.0" />
+      <point x="782.6238888888889" y="948.0" />
+      <point x="45.66666666666663" y="25.5" />
+    </edge>
+    <edge source="P3.src.MyChessAndGoGame" target="P3.src.ChessBoard">
+      <point x="72.875" y="-48.5" />
+      <point x="596.9572222222223" y="1468.0" />
+      <point x="1141.3070833333334" y="1468.0" />
+      <point x="1141.3070833333334" y="1142.0" />
+      <point x="1190.9572222222223" y="1142.0" />
+      <point x="64.0" y="49.0" />
+    </edge>
+    <edge source="P3.src.MyChessAndGoGame" target="P3.src.Position">
+      <point x="-59.625" y="-48.5" />
+      <point x="464.4572222222223" y="1458.0" />
+      <point x="36.0" y="1458.0" />
+      <point x="36.0" y="938.0" />
+      <point x="132.1258333333334" y="938.0" />
+      <point x="-35.60000000000002" y="95.0" />
+    </edge>
+    <edge source="P3.src.MyChessAndGoGame" target="P3.src.GoAction">
+      <point x="6.625" y="-48.5" />
+      <point x="530.7072222222223" y="1418.0" />
+      <point x="614.0000000000001" y="1418.0" />
+      <point x="-67.5" y="118.0" />
+    </edge>
+    <edge source="P3.src.ChessPiece" target="P3.src.Piece">
+      <point x="-27.625" y="-60.5" />
+      <point x="1099.3322222222223" y="688.0" />
+      <point x="877.1250000000001" y="688.0" />
+      <point x="61.125" y="49.0" />
+    </edge>
+    <edge source="P3.src.ChessBoard" target="P3.src.Board">
+      <point x="-72.0" y="-49.0" />
+      <point x="1054.9572222222223" y="948.0" />
+      <point x="953.7072222222223" y="948.0" />
+      <point x="42.75" y="25.5" />
+    </edge>
+    <edge source="P3.src.ChessAction" target="P3.src.Position">
+      <point x="-48.125" y="-71.5" />
+      <point x="285.8750000000001" y="1142.0" />
+      <point x="313.0000000000001" y="1142.0" />
+      <point x="313.0000000000001" y="948.0" />
+      <point x="203.32583333333338" y="948.0" />
+      <point x="35.599999999999966" y="95.0" />
+    </edge>
+    <edge source="P3.src.GoBoard" target="P3.src.Board">
+      <point x="57.0" y="-49.0" />
+      <point x="884.0000000000001" y="948.0" />
+      <point x="868.2072222222223" y="948.0" />
+      <point x="-42.75" y="25.5" />
+    </edge>
+    <edge source="P3.src.GoAction" target="P3.src.GoBoard">
+      <point x="101.25" y="-118.0" />
+      <point x="782.7500000000001" y="1132.0" />
+      <point x="770.0000000000001" y="1132.0" />
+      <point x="-57.0" y="49.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="-63.75" y="-175.5" />
+      <point x="1139.8522222222223" y="76.0" />
+      <point x="1123.0197222222223" y="76.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="P3.src.Player" target="P3.src.Position">
+      <point x="0.0" y="-72.0" />
+      <point x="131.0" y="948.0" />
+      <point x="167.7258333333334" y="948.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="P3.src.GoAction" target="P3.src.GoPiece">
+      <point x="33.75" y="-118.0" />
+      <point x="715.2500000000001" y="1132.0" />
+      <point x="685.7480555555557" y="1132.0" />
+      <point x="685.7480555555557" y="948.0" />
+      <point x="691.2905555555557" y="948.0" />
+      <point x="-45.66666666666663" y="25.5" />
+    </edge>
+    <edge source="P3.src.ChessBoard" target="P3.src.ChessType">
+      <point x="72.0" y="-49.0" />
+      <point x="1198.9572222222223" y="948.0" />
+      <point x="1247.9572222222223" y="948.0" />
+      <point x="1247.9572222222223" y="698.0" />
+      <point x="1239.6022222222223" y="698.0" />
+      <point x="36.0" y="83.0" />
+    </edge>
+    <edge source="P3.src.GoAction" target="P3.src.Action">
+      <point x="-101.25" y="-118.0" />
+      <point x="580.2500000000001" y="1132.0" />
+      <point x="420.8487500000001" y="1132.0" />
+      <point x="31.5" y="25.5" />
+    </edge>
+    <edge source="P3.src.ChessBoard" target="P3.src.ChessPiece">
+      <point x="-24.0" y="-49.0" />
+      <point x="1102.9572222222223" y="948.0" />
+      <point x="1071.7072222222223" y="948.0" />
+      <point x="-55.25" y="60.5" />
+    </edge>
+    <edge source="P3.src.ChessPiece" target="P3.src.ChessType">
+      <point x="27.625" y="-60.5" />
+      <point x="1154.5822222222223" y="698.0" />
+      <point x="1167.6022222222223" y="698.0" />
+      <point x="-36.0" y="83.0" />
+    </edge>
+    <edge source="P3.src.GoPiece" target="P3.src.Piece">
+      <point x="34.25" y="-25.5" />
+      <point x="771.2072222222223" y="698.0" />
+      <point x="795.6250000000001" y="698.0" />
+      <point x="-20.375" y="49.0" />
+    </edge>
+    <edge source="P3.src.ChessType" target="java.lang.Enum">
+      <point x="0.0" y="-83.0" />
+      <point x="0.0" y="175.5" />
+    </edge>
+    <edge source="P3.src.MyChessAndGoGame" target="P3.src.Player">
+      <point x="-46.375" y="-48.5" />
+      <point x="477.7072222222223" y="1448.0" />
+      <point x="90.49805555555554" y="1448.0" />
+      <point x="90.49805555555554" y="1142.0" />
+      <point x="74.66666666666663" y="1142.0" />
+      <point x="-56.33333333333337" y="72.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="63.75" y="-175.5" />
+      <point x="1267.3522222222223" y="76.0" />
+      <point x="1279.5197222222223" y="76.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="P3.src.GoAction" target="P3.src.Position">
+      <point x="-33.75" y="-118.0" />
+      <point x="647.7500000000001" y="1132.0" />
+      <point x="663.2500000000001" y="1132.0" />
+      <point x="663.2500000000001" y="938.0" />
+      <point x="238.9258333333334" y="938.0" />
+      <point x="71.19999999999999" y="95.0" />
+    </edge>
+    <edge source="P3.src.ChessAction" target="P3.src.Player">
+      <point x="-144.375" y="-71.5" />
+      <point x="189.6250000000001" y="1142.0" />
+      <point x="187.33333333333337" y="1142.0" />
+      <point x="56.33333333333334" y="72.0" />
+    </edge>
+    <edge source="P3.src.MyChessAndGoGame" target="P3.src.ChessAction">
+      <point x="-6.625" y="-48.5" />
+      <point x="517.4572222222223" y="1418.0" />
+      <point x="430.2500000000001" y="1418.0" />
+      <point x="96.25" y="71.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5544407894736845" x="751.8684803250474" y="1206.4932051047595" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

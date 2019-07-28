@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: junit.jar org.hamcrest.core_1.3.0.v20180420-1519.jar
+Main-Class: P3.src.MyChessAndGoGame
+
